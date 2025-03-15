@@ -1,0 +1,85 @@
+/*navbar icon*/
+@media screen and (max-width: 750px){
+	.menu-link{display: none;}
+	.open-menu{display: block;}
+	
+	.f-lnik{width: 592px;}
+	.footer-container{flex-wrap: wrap;}
+	
+	}
+
+/*responsive about*/
+@media screen and (max-width: 1100px){
+	.responsive-about{flex-direction: column;align-items: center;}
+	
+}
+/*about text*/
+@media screen and (max-width: 1290px){
+	.about-text p{font-size: 1.6rem;}
+}
+
+/*resonsive facilities box*/
+@media screen and (max-width: 1000px){
+	
+	.box-1, .box-2{
+		justify-content: space-around;
+	}
+	.jumbo-box{
+		margin-bottom: 10px;
+	}
+	
+	.img-div img{
+		width: 400px;
+		height: 300px;
+		padding: 10px;
+		box-sizing: border-box;
+	}
+}
+
+/*tarif box*/
+@media screen and (max-width: 970px){
+	.tarif-container{flex-direction: column;}
+	.tarif-container div{margin-bottom: 20px;}
+
+}
+
+/*facilities box*/
+@media screen and (max-width: 1300px){
+	.box-1, .box-2{
+		/*flex-direction: column;*/
+		flex-wrap: wrap;
+	}
+
+	.box-1 .jumbo-box, .box-2 .jumbo-box{
+		width:592px;
+}	
+	
+}
+@media screen and (max-width: 1250px){
+		.box-1 .jumbo-contianer, .box-2 .jumbo-contianer{
+		flex-direction: column;
+	}
+
+	.box-1 .jumbo-box, .box-2 .jumbo-box{
+		width: 592px;
+}
+}
+
+/*responsive gallary*/
+
+@media screen and (max-width: 1260px){
+	.img-g img{width: 300px;}
+}
+@media screen and (max-width: 960px){
+	.img-g{flex-direction: column;}
+	.img-g img{width: 592px;}
+}
+
+/*mobile use*/
+@media screen and (max-width: 630px){
+		.box-1 .jumbo-box, .box-2 .jumbo-box{
+		width: 400px;
+}
+	.img-g img{width: 400px;}
+	.flex-col h1{font-size: 30px;}
+}

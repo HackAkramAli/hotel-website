@@ -1,0 +1,51 @@
+/*center element*/
+.mx-auto{margin: 0 auto;}
+
+.Myfont{
+	font-weight: 500;
+	font-style: italic;
+	font-variant: all-petite-caps;
+	font-family: sans-serif;
+}
+
+.text-primary{color: blue;}
+.text-white{color: white;}
+
+/*Flexbx Properties*/
+.flex{display: flex;}
+
+.items-center{align-items: center;}
+
+.justify-center{justify-content: center;}
+
+.justify-start{justify-content: flex-start;}
+
+.justify-between{justify-content: space-between;}
+
+.justify-around{justify-content: space-around;}
+
+.bold{font-weight: 800;}
+
+.flex-col{flex-direction: column;}
+
+.text-size{font-size: 37px;}
+
+.btn{
+	border:none;
+	padding: 15px 65px;
+	color: white;
+	background-color: blue;
+	margin: 12px 0;
+	cursor: pointer;
+	border-radius: 12px;
+}
+.txt-center{
+	text-align: center;
+	margin: 20px 0;
+	font-size: 40px;
+	font-family: sans-serif;
+}
+.all-p{
+	padding: 40px;
+	box-sizing: border-box;
+}

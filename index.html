@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+	<title>Hotel luxburg</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<link rel="stylesheet" type="text/css" href="utcss.css">
+	<link rel="stylesheet" type="text/css" href="responsive.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="icon" type="image/x-icon" href="favicon/favicon.ico">
+</head>
+<body>
+	<!-- overlay manu bar -->
+	<div class="overlay_manu" id="menulist">
+		<div class="close_menu" id="close_menu" onclick="closemenubar()"><span title="close manu">X</span></div>
+		<nav class="mobile-menu">
+			<ul class="moblie-nav">
+					<li><a href="#home" class="links">Home</a></li>
+					<li><a href="#about" class="links">About Us</a></li>
+					<li><a href="#facilities" class="links">Facilities</a></li>
+					<li><a href="#gallary" class="links">Gallary</a></li>
+					<li><a href="#tarif" class="links">Tarif</a></li>
+				</ul>
+		</nav>
+	</div>
+	<!-- End overlay manu -->
+	<!-- Main Container -->
+	<div class="container mx-auto">
+		<!-- haeder -->
+		<header class="mx-auto flex justify-between items-center navbar">
+			<!-- logo -->
+			<h1 class="Myfont text-primary logo"><a href="#home"> Luxburg</a></h1>
+			<!-- End Logo -->
+			<!-- nav links -->
+			<nav class="Myfont navbar1">
+				<ul class="flex justify-between menu-link">
+					<li><a href="#home">Home</a></li>
+					<li><a href="#about">About Us</a></li>
+					<li><a href="#facilities">Facilities</a></li>
+					<li><a href="#gallary">Gallary</a></li>
+					<li><a href="#tarif">Tarif</a></li>
+				</ul>
+				<!-- menuicon  for mobile-->
+				<div class="manuicon open-menu" onclick="openmenu()" id="opne_menu">
+					<div></div>
+					<div></div>
+					<div></div>
+				</div>
+				<!-- end menuicon -->
+			</nav>
+			<!-- end nav links -->
+		</header>
+		
+		<!-- End header -->
+		 <!-- Container All Section -->
+		<main class="whole_page mx-auto">
+			<!-- herro section -->
+			<section class="hero_section" id="home">
+				<div class="hero_text flex items-center justify-center">
+					<div class="flex flex-col items-center">
+						<h1 class="Myfont text-white text-size">Relax,Unwind,Enjoy</h1>
+						<h1 class="Myfont text-white text-size">Your Dream Stay Starts Here</h1>
+						<p class="Myfont text-white ">Comfy Rooms,Delicious Food,& Smiles Everywhere</p>
+						<p class="Myfont text-white ">Book Now And Make Memories That Last!</p>
+						<button class="b-btn btn">Book Today</button>
+					</div>
+				</div>
+			</section>
+			<!-- hero  section end -->
+			<!-- About section -->
+			<section class="about" id="about">
+				<h1 class="txt-center Myfont">About Us</h1>
+				<div class="flex justify-around responsive-about">
+					<div class="img-div all-p">
+						<img src="img/3.jpg" alt="about_img" loading="lazy">
+					</div>
+					<div class="about-text all-p">
+						<p class="Myfont txt-center resposive-p">
+							At LUXBURG Hotel, we don't just offer a place to stay. we create experiences from luxrious comfort to heartleft hospitality, every detail is designed to make your stay unforgettable. discover a home away from home, where memories are made and smiles never fade.
+						</p>
+					</div>
+				</div>
+			</section>
+			<!-- end about section -->
+			<!-- facilities section -->
+			<section class="facilities" id="facilities">
+				<h1 class="txt-center Myfont">Facilities</h1>
+
+				<div class="flex justify-center items-center box-1">
+					<div class="flex justify-center jumbo-contianer">
+						<div class="jumbo-box">
+							<h2>Swinmming Pool</h2>
+							<p>Relax and unwind in our speakling outdoor pool with stunning views.</p>
+						</div>
+						<div class="jumbo-box">
+							<h2>Free WIFI</h2>
+							<p>Stay connected with high-speed internet access throughout the hotel.</p>
+						</div>
+					</div>
+					<div class="flex justify-center jumbo-contianer">
+						<div class="jumbo-box">
+							<h2>Restaurant & Bar</h2>
+							<p>Savor delicious measls and refreshing drinks at our on-site dining spots.</p>
+						</div>
+						<div class="jumbo-box">
+							<h2>Spa & Wellness</h2>
+							<p>Rejuvenate with range od luxuries spa treatments and therapies.</p>
+						</div>
+					</div>
+				</div>
+				<div class="flex justify-center items-center box-2">
+					<div class="flex justify-center jumbo-contianer">
+						<div class="jumbo-box">
+							<h2>Fitness Center</h2>
+							<p>Stay active with state-of-the-art gym equipment and facilities.</p>
+						</div>
+						<div class="jumbo-box">
+							<h2>Free Parking</h2>
+							<p>Enjoy conveniet and secure parking for all guests.</p>
+						</div>
+					</div>
+					<div class="flex justify-center jumbo-contianer">
+						<div class="jumbo-box">
+							<h2>24/7 Room Service</h2>
+							<p>Delight in round-the-clock dining and comfort at your doorstep.</p>
+						</div>
+						<div class="jumbo-box">
+							<h2>Business Center</h2>
+							<p>Stay productive with fully equipped workspaces and meeting rooms.</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- facilities section end -->
+			<!-- section gallery -->
+			<section class="gallary" id="gallary">
+				<h1 class="txt-center Myfont">Gallery</h1>
+				<div class="flex justify-center items-center img-g">
+					<img src="img/1.jpg" alt="img1" loading="lazy">
+					<img src="img/2.jpg" alt="img2" loading="lazy">
+					<img src="img/3.jpg" alt="img3" loading="lazy">
+				</div>
+				<div class="flex justify-center items-center img-g">
+					<img src="img/4.jpg" alt="img4" loading="lazy">
+					<img src="img/5.jpg" alt="img5" loading="lazy">
+					<img src="img/bg.jpg" alt="img6" loading="lazy">
+				</div>
+			</section>
+			<!-- end gallary -->
+			<section class="tarif" id="tarif">
+				<h1 class="txt-center Myfont">Tarif</h1>
+				<div class="flex justify-around items-center tarif-container">
+					<!-- standard -->
+					<div class="tarif-box">
+						<h2>Standard Room</h2>
+						<h1>$100<span>per night</span></h1>
+						<ul>
+							<li>10% GST</li>
+							<li>Breakfast: <span>$15 per person</span></li>
+							<li>Free Cancellation</li>
+							<li>CheckIn/CheckOut Time:<span>2:00 PM/12:00 PM</span></li>
+							<li>Payment Methods: <span>Crdit Card/ Online payment/ Bank tranfer/ Cash</span></li>
+						</ul>
+						<button class="b-btn btn">Book Now</button>
+					</div>
+					<!-- Deluxe -->
+					<div class="tarif-box">
+						<h2>Deluxe Room</h2>
+						<h1>$150<span>per night</span></h1>
+						<ul>
+							<li>10% GST</li>
+							<li>Breakfast: <span>$15 per person</span></li>
+							<li>Free Cancellation</li>
+							<li>CheckIn/CheckOut Time: <span>2:00 PM/12:00 PM</span></li>
+							<li>Payment Methods: <span>Crdit Card/ Online payment/ Bank tranfer/ Cash</span></li>
+						</ul>
+						<button class="b-btn btn">Book Now</button>
+					</div>
+					<!-- Family -->
+					<div class="tarif-box">
+						<h2>Family Room</h2>
+						<h1>$200<span>per night</span></h1>
+						<ul>
+							<li>10% GST</li>
+							<li>Breakfast: <span>$15 per person</span></li>
+							<li>Free Cancellation</li>
+							<li>CheckIn/CheckOut Time: <span>2:00 PM/12:00 PM</span></li>
+							<li>Payment Methods: <span>Crdit Card/ Online payment/ Bank tranfer/ Cash</span></li>
+						</ul>
+						<button class="b-btn btn">Book Now</button>
+					</div>
+				</div>
+			</section>
+			<!-- tarif section end -->
+		</main>
+		<footer>
+			<div class="flex justify-between footer-container">
+				<div class="f-link">
+					 <h4>About us</h4>
+					 <ul>
+					 	<li><a href="#">Our Story</a></li>
+					 	<li><a href="#">Location</a></li>
+					 	<li><a href="#">Awards</a></li>
+					 	<li><a href="#">Careers</a></li>
+					 </ul>
+				</div>
+				<div class="f-link">
+					<h4>Quick Links</h4>
+					<ul>
+					 	<li><a href="#">Rooms & Suites</a></li>
+					 	<li><a href="#">Dining</a></li>
+					 	<li><a href="#">Spa & Wellness</a></li>
+					 	<li><a href="#">Events & Meetings</a></li>
+					 </ul>
+				</div>
+				<div class="f-link">
+					<h4>Support</h4>
+					<ul>
+					 	<li><a href="#">FAQ</a></li>
+					 	<li><a href="#">Contact Us</a></li>
+					 	<li><a href="#">Privacy and Policy</a></li>
+					 	<li><a href="#">Terms and Condition</a></li>
+					 </ul>
+				</div>
+				<div class="f-link">
+					<h4>Folow Us</h4>
+					<div class="social-links">
+						<a href="#facebook"><i class="fab fa-facebook-f"></i></a>
+						<a href="#twitter"><i class="fab fa-twitter"></i></a>
+						<a href="#instagram"><i class="fab fa-instagram"></i></a>
+						<a href="#linkdin"><i class="fab fa-linkedin-in"></i></a>
+					</div>
+					<p style="color: gray;">Subscribe to our newsletter for exclusive offers!</p>
+					<form class="newsletter-form">
+						<input type="emaill" name="" placeholder="Enter your email" required="required">
+						<button type="submit">Subscribe</button>
+					</form>
+				</div>
+			</div>
+			<div class="copyright">
+				<p>&copy; 2025 LUXBURG. All rights reserved.</p>
+			</div>
+		</footer>
+	</div>
+	<!-- End Main Container	 -->
+</body>
+<script type="text/javascript" src="main.js"></script>
+</html>
